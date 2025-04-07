@@ -7,6 +7,13 @@ AdoDotNetExample adoDotNetExample = new AdoDotNetExample();
 //adoDotNetExample.Read();
 //adoDotNetExample.Create();
 //adoDotNetExample.Edit();
-adoDotNetExample.Delete();
+//adoDotNetExample.Update();
+//adoDotNetExample.Delete();
+
+DapperExample dapperExample = new DapperExample();
+//dapperExample.Read();
+//dapperExample.Create("asdfdfdsa","sdfasfa","asdffa");
+//dapperExample.Update();
+dapperExample.Delete();
 
 Console.ReadKey();

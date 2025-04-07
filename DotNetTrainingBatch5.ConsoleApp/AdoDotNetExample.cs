@@ -192,7 +192,7 @@ namespace DotNetTrainingBatch5.ConsoleApp
 
             connection.Close();
 
-            Console.WriteLine(result == 0 ? "Updating Successfull." : "Saving Failed.");
+            Console.WriteLine(result == 1 ? "Updating Successfull." : "Saving Failed.");
         }
     
         public void Delete()
