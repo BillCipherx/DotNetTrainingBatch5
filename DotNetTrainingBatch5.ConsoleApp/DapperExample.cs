@@ -59,7 +59,7 @@ namespace DotNetTrainingBatch5.ConsoleApp
 
             using (IDbConnection db = new SqlConnection(_connectionString))
             {
-                int result = db.Execute(query, new BlogDataModel
+                int result = db.Execute(query, new BlogDapperDataModel
                 {
                     BlogTitle = title,
                     BlogAuthor = author,
@@ -67,6 +67,31 @@ namespace DotNetTrainingBatch5.ConsoleApp
                 });
 
                 Console.WriteLine(result == 1 ? "Saving Successfull." : "Saving Failed.");
+            }
+        }
+
+        public void Edit(int id)
+        {
+
+            using (IDbConnection db = new SqlConnection(_connectionString))
+            {
+                string query = "select * from tbl_blog where DeleteFlag = 0 and BlogId = @BlogId;";
+                var item = db.Query<BlogDataModel>(query, new BlogDapperDataModel
+                {
+                    BlogId = id
+                }).FirstOrDefault();
+
+                //if (item == null)
+                if (item is null)
+                {
+                    Console.WriteLine("No data found.");
+                    return;
+                }
+
+                Console.WriteLine(item.BlogId);
+                Console.WriteLine(item.BlogTitle);
+                Console.WriteLine(item.BlogAuthor);
+                Console.WriteLine(item.BlogContent);
             }
         }
 

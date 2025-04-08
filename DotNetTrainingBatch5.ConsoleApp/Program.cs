@@ -13,7 +13,17 @@ AdoDotNetExample adoDotNetExample = new AdoDotNetExample();
 DapperExample dapperExample = new DapperExample();
 //dapperExample.Read();
 //dapperExample.Create("asdfdfdsa","sdfasfa","asdffa");
+//dapperExample.Edit(1);
+//dapperExample.Edit(2);
+//dapperExample.Edit(3);
 //dapperExample.Update();
-dapperExample.Delete();
+//dapperExample.Delete();
+
+EFCoreExample eFCoreExample = new EFCoreExample();
+//eFCoreExample.Read();
+//eFCoreExample.Create("asdfdfdsa", "sdfasfa", "asdffa");
+//eFCoreExample.Edit(5);
+eFCoreExample.Update(3, "OkNarSar", "SawTeePal", "BarLar");
+//eFCoreExample.Delete(3011);
 
 Console.ReadKey();
