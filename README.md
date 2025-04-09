@@ -38,3 +38,5 @@ SLH => Collin
 Bank +5000
 
 HHADotNetCore
+
+dotnet ef dbcontext scaffold "Server=.;Database=DotNetTrainingBatch5;User Id=sa;Password=sasa@123;TrustServerCertificate=True;" Microsoft.EntityFrameworkCore.SqlServer -o Models -c AppDbContext -t Tbl_Name -f
