@@ -12,7 +12,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documents", "Documents", "{
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DotNetTrainingBatch5.Database", "DotNetTrainingBatch5.Database\DotNetTrainingBatch5.Database.csproj", "{87118BAD-B6D0-4022-A9E8-B1B753F30BD0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetTrainingBatch5ConsoleApp2", "DotNetTrainingBatch5ConsoleApp2\DotNetTrainingBatch5ConsoleApp2.csproj", "{C414EB88-A33E-4B74-BFF9-EB522FE77B85}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DotNetTrainingBatch5ConsoleApp2", "DotNetTrainingBatch5ConsoleApp2\DotNetTrainingBatch5ConsoleApp2.csproj", "{C414EB88-A33E-4B74-BFF9-EB522FE77B85}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetTrainingBatch5.RestApi", "DotNetTrainingBatch5.RestApi\DotNetTrainingBatch5.RestApi.csproj", "{7D686E1F-9702-47D8-AF5A-D9C6E244B1DD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -32,6 +34,10 @@ Global
 		{C414EB88-A33E-4B74-BFF9-EB522FE77B85}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C414EB88-A33E-4B74-BFF9-EB522FE77B85}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C414EB88-A33E-4B74-BFF9-EB522FE77B85}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7D686E1F-9702-47D8-AF5A-D9C6E244B1DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D686E1F-9702-47D8-AF5A-D9C6E244B1DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D686E1F-9702-47D8-AF5A-D9C6E244B1DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D686E1F-9702-47D8-AF5A-D9C6E244B1DD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
