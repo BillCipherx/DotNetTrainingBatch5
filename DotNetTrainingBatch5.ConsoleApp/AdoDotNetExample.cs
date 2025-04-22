@@ -98,8 +98,8 @@ namespace DotNetTrainingBatch5.ConsoleApp
 
             SqlCommand cmd = new SqlCommand(@query, connection);
             cmd.Parameters.AddWithValue("@BlogTitle", title);
-            cmd.Parameters.AddWithValue("@BlogTitle", author);
-            cmd.Parameters.AddWithValue("@BlogTitle", content);
+            cmd.Parameters.AddWithValue("@BlogAuthor", author);
+            cmd.Parameters.AddWithValue("@BlogContent", content);
 
             //SqlDataAdapter adapter = new SqlDataAdapter(cmd1);
             //DataTable dt = new DataTable();

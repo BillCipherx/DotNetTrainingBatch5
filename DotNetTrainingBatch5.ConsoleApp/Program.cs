@@ -23,7 +23,10 @@ EFCoreExample eFCoreExample = new EFCoreExample();
 //eFCoreExample.Read();
 //eFCoreExample.Create("asdfdfdsa", "sdfasfa", "asdffa");
 //eFCoreExample.Edit(5);
-eFCoreExample.Update(3, "OkNarSar", "SawTeePal", "BarLar");
+//eFCoreExample.Update(3, "OkNarSar", "SawTeePal", "BarLar");
 //eFCoreExample.Delete(3011);
+
+DapperExample2 dapperExample2 = new DapperExample2();
+dapperExample2.Read();
 
 Console.ReadKey();

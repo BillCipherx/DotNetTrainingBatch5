@@ -40,3 +40,34 @@ Bank +5000
 HHADotNetCore
 
 dotnet ef dbcontext scaffold "Server=.;Database=DotNetTrainingBatch5;User Id=sa;Password=sasa@123;TrustServerCertificate=True;" Microsoft.EntityFrameworkCore.SqlServer -o Models -c AppDbContext -t Tbl_Name -f
+
+-------------------------------
+
+Visual Studio 2022 Installation
+Microsoft SQL Server 2022
+SSMS (SQL Server Management System)
+
+C# Basic
+SQL Basic
+
+Console App (Create Project)
+DTO (Data Trasnsfer Object)
+Nuget Package
+ADO.NET
+
+Dapper
+- ORM
+- Data Model
+- AsNoTracking
+
+EFCore
+- AppDbContext
+- Database First
+
+REST API (ASP.NET Core Web API)
+- Swagger
+- Postman
+- Http Method
+- Http Status Code
+
+---------------------------------------
