@@ -31,7 +31,7 @@ namespace DotNetTrainingBatch5.ConsoleApp
                           ,[DeleteFlag]
                       FROM [dbo].[Tbl_Blog] where DeleteFlag = 0";
 
-            SqlCommand cmd = new SqlCommand(cmdText: query, connection);
+            SqlCommand cmd = new SqlCommand(query, connection);
             //SqlDataAdapter adapter = new SqlDataAdapter(selectCommand: cmd);
             //DataTable dt = new DataTable();
             //adapter.Fill(dt);
@@ -192,7 +192,7 @@ namespace DotNetTrainingBatch5.ConsoleApp
 
             connection.Close();
 
-            Console.WriteLine(result == 1 ? "Updating Successfull." : "Saving Failed.");
+            Console.WriteLine(result == 1 ? "Updating Successfull." : "Updating Failed.");
         }
     
         public void Delete()

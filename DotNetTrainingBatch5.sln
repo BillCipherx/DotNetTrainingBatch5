@@ -16,7 +16,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DotNetTrainingBatch5Console
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DotNetTrainingBatch5.RestApi", "DotNetTrainingBatch5.RestApi\DotNetTrainingBatch5.RestApi.csproj", "{7D686E1F-9702-47D8-AF5A-D9C6E244B1DD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetTrainingBatch5.Shared", "DotNetTrainingBatch5.Shared\DotNetTrainingBatch5.Shared.csproj", "{53960C60-894C-43D4-B5FC-19612EB29A80}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DotNetTrainingBatch5.Shared", "DotNetTrainingBatch5.Shared\DotNetTrainingBatch5.Shared.csproj", "{53960C60-894C-43D4-B5FC-19612EB29A80}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DotNetTrainingBatch5.MinimalApi", "DotNetTrainingBatch5.MinimalApi\DotNetTrainingBatch5.MinimalApi.csproj", "{457DE2EA-C250-4FC0-ABEB-53690C326CC6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetTrainingBatch5.BirdsMinimalApi", "DotNetTrainingBatch5.BirdsMinimalApi\DotNetTrainingBatch5.BirdsMinimalApi.csproj", "{8A20A2A7-0B19-4F98-BC30-3F7BDF168607}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -44,6 +48,14 @@ Global
 		{53960C60-894C-43D4-B5FC-19612EB29A80}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{53960C60-894C-43D4-B5FC-19612EB29A80}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{53960C60-894C-43D4-B5FC-19612EB29A80}.Release|Any CPU.Build.0 = Release|Any CPU
+		{457DE2EA-C250-4FC0-ABEB-53690C326CC6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{457DE2EA-C250-4FC0-ABEB-53690C326CC6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{457DE2EA-C250-4FC0-ABEB-53690C326CC6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{457DE2EA-C250-4FC0-ABEB-53690C326CC6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8A20A2A7-0B19-4F98-BC30-3F7BDF168607}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A20A2A7-0B19-4F98-BC30-3F7BDF168607}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A20A2A7-0B19-4F98-BC30-3F7BDF168607}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A20A2A7-0B19-4F98-BC30-3F7BDF168607}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
